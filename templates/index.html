@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('signimage2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      margin: 0;
+    }
+     button
+            {
+                font-size: 40px;
+                padding: 10px;
+                border-radius: 10px;
+                margin: 20px
+            }
+            #container
+            {
+                text-align: center;
+            }
+            #btntwo
+            {
+                display:block;
+                margin:auto;
+            }
+            #btnthree
+            {
+                text-align: left;
+                bottom: 10px;
+                right: 3%;
+            }
+    
+    header {
+      background-repeat: no-repeat;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-size:60px;background-size: top; background-color:rgb(228, 220, 220);  text-align: center;">Welcome to sign language recoginition system</h1>
+  </header>
+  
+  <main>
+    <div id="container">
+            <button onclick="window.location.href='/collect-data';">Collect Data</button>
+
+        </div>
+    <div id="container">
+            <button onclick="window.location.href='/predict';">Predict Data</button>
+        </div>
+    <div id="container">
+            <button onclick="window.location.href='/exit';">Exit</button>
+        </div>
+
+  </main>
+  
+</body>
+</html>
